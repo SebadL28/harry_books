@@ -34,6 +34,10 @@ body {
 	color: #444;
 }
 
+.navbar.navbar-dark .navbar-brand{
+	color: #fff;
+}
+
 .navbar .fa{
 	font-size: 26px;
 }
@@ -41,6 +45,11 @@ body {
 .navbar .nav-item{
 	margin-left: 30px;
 }
+
+.navbar .dropdown-menu .nav-item{
+	margin-left: 0px;
+}
+
 
 .banner-principal{
 	height: calc(60vh);

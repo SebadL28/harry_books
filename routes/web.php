@@ -21,5 +21,7 @@ Route::post('/cart/actualizar_cantidad', 'CartController@actualizarCantidadLibro
 Route::post('/cart/eliminar_pedido', 'CartController@eliminarLibro');
 Route::post('/cart/cancelar_compra', 'CartController@cancelarCompra');
 
+Route::get('/administracion', 'AdministracionController@index')->name('administracion');
+Route::get('/administracion/informe/{id}', 'AdministracionController@informe');
+
 Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
